@@ -7,7 +7,7 @@ public class Main {
         HistoricoNotas historico = new HistoricoNotas(lista, cadastro);
         Scanner sc = new Scanner(System.in);
 
-        // Dados iniciais de exemplo
+    
         lista.adicionarEstudante(new Estudante(1, "Ana"));
         lista.adicionarEstudante(new Estudante(2, "Bruno"));
         lista.adicionarEstudante(new Estudante(3, "Carla"));
